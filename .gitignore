@@ -119,7 +119,7 @@ toy*.py
 .DS_Store
 post/
 toy*.ipynb
-data/
+# data/
 *.c
 .nes_cache
 toy*.yml
