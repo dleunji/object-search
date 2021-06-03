@@ -2,7 +2,6 @@
 pretrained
 *.html
 
-
 # Ignore unnecessary files inside allowed directories
 # This should go after the allowed directories
 
@@ -12,3 +11,4 @@ pretrained
 **/.eggs/
 __pycache__
 venv/
+*.zip

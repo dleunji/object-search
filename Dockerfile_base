@@ -1,0 +1,6 @@
+FROM python:3.8-slim
+RUN mkdir workspace
+WORKDIR /workspace
+COPY . .
+RUN apt-get update && apt-get install -y git && pip install --no-cache-dir -r requirements.txt
+CMD ["/bin/bash"]

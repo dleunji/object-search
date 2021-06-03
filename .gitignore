@@ -133,3 +133,4 @@ jina-profile*.json
 .vscode/
 data-all/
 *.zip
+data/
