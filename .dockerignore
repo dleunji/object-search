@@ -1,7 +1,7 @@
 # ignore everything
 #data
 pretrained
-# workspace
+workspace
 *.html
 data
 
